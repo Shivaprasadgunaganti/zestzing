@@ -28,7 +28,9 @@ const Feed = () => {
           <Rrrr /> {/* Add the Reels component here */}
         </div>
         {/* {recommend user section} */}
-        <div className='w-[25%] h-auto lg:block md:hidden sm:hidden hidden'>
+        <div  className="w-[25%] h-auto lg:block md:hidden sm:hidden hidden fixed top-10 right-20"
+
+        >
           <Recommendeduser />
         </div>
       </div>

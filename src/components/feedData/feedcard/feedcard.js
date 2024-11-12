@@ -8,7 +8,6 @@ import Share from '../../share/share';
 import Save from '../../save/save';
 import Emoji from '../../Emoji/emoji';
 
-// Helper function to format large numbers (like converting 1500 to "1.5k")
 const formatLikes = (likeCount) => {
   if (likeCount >= 1000) {
     return (likeCount / 1000).toFixed(1) + 'k';
@@ -17,7 +16,6 @@ const formatLikes = (likeCount) => {
 };
 
 const Feedcard = () => {
-  // Initialize state for likes, comments, comment visibility, and comment input
   const [likes, setLikes] = useState(
     instagramFeed.map(feed => {
       let likeCount = feed.likeCount;

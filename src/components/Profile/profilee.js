@@ -11,6 +11,7 @@ import TagIcon from "../Feeds/flg/tag.png"
 import Postst from './posts/postst'
 import Reels from './reels/reels'
 import Tagss from './tags/tagss'
+import Largenav from '../header/largenav'
 
 
 
@@ -29,7 +30,9 @@ const Profilee = () => {
   }
   return (
     <>
-      <div className='lg:w-[88%] md:w-[88%] ml-[-60px] mr-[150px] sm:w-full w-full h-auto lg:block md:block sm:hidden hidden'>
+    <div className='setexplore'>
+      <Largenav/>
+      <div className='lg:w-[88%] md:w-[88%] ml-80 mr-[150px] sm:w-full w-full h-auto lg:block md:block sm:hidden hidden'>
         {/* {your info section} */}
                 <div className='w-full h-auto flex items-center lg:gap-x-20 md:gap-x-16 sm:gap-x-12 gap-x-8 justify-center mb-10'> 
                         <img 
@@ -120,6 +123,7 @@ const Profilee = () => {
                                       {activeTab === "tagged" && <Tagss/>}
                                 </div>
                         </div>
+      </div>
       </div>
     </>
   )

@@ -1,0 +1,99 @@
+/* General styles for login container */
+.login-container {
+    display: flex;
+ 
+    height: 100vh;
+    background-color: #f0f2f5;
+  }
+  
+  .form-section1{
+    flex: 1;
+    padding: 2rem;
+    max-width: 500px;
+    
+    background: white;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+  }
+
+  
+  
+  .form-section {
+    flex: 1;
+    padding: 2rem;
+    max-width: 420px;
+    background: white;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+  }
+  .hss{
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+      text-align: center;
+  }
+  .end{
+    text-align: center;
+  }
+  .r {
+ 
+    color: blue;
+    /* text-decoration: underline; */
+}
+  .hs {
+    font-size: 34px;
+    font-weight: 600;
+    color: #333;
+      text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  p {
+    text-align: center;
+    color: #666;
+   /* margin-top: 30px; */
+   padding: 10px;
+  }
+  
+  /* Input field styling */
+  .form-control {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    font-size: 16px;
+  }
+  
+  .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+  }
+  
+  /* Button styling */
+  .btn-primary {
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    width: 300px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+ 
+  
+
+
+
+
+
+
+
+
