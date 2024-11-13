@@ -19,7 +19,7 @@ const MobileNav=()=>{
           <p className='text-base font-semibold text-white lg:block md:hidden sm:hidden hidden'>Home</p>
          </Link>
 
-         <Link to="/reels" className='w-full h-auto flex items-center gap-x-4 p-3 bg-transparent hover:bg-gray-800/60 rounded-md ease-out duration-500 group'>
+         <Link to="/reels" className='w-full h-auto flex items-center gap-x-4 p-3 bg-transparent hover:bg-gray-800/60 rounded-md ease-out duration-500 group  '>
           <img src={ReelsLogo} alt='explore icon' className='w-6 h-6 rounded-md object-cover group-hover:scale-105 ease-out duration-300' />
           <p className='text-base font-medium text-white lg:block md:hidden sm:hidden hidden'>Reels</p>
         </Link>
